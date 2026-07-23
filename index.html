@@ -161,14 +161,14 @@
             <!-- Logotipo do Estúdio -->
             <a href="#" class="flex items-center group reveal-left">
                 <!-- Usando o arquivo de logo que você enviou -->
-                <img src="bege1s-semfundo.png" alt="Nedina Estúdio Criativo" class="h-10 md:h-12 object-contain group-hover:scale-150 transition-transform duration-300 drop-shadow-[0_0_15px_rgba(255,255,255,0.05)]">
+                <img src="bege1s-semfundo.png" alt="Nedina Estúdio Criativo" class="h-10 md:h-12 object-contain group-hover:scale-105 transition-transform duration-300 drop-shadow-[0_0_15px_rgba(255,255,255,0.05)]">
             </a>
 
             <!-- Menu Navegação -->
             <nav class="hidden md:flex gap-10 text-sm font-medium text-gray-300 reveal-up delay-100">
                 <a href="#sobre" class="hover:text-nedina-orange transition-colors" data-pt="O que fazemos" data-en="What we do">O que fazemos</a>
                 <a href="#processo" class="hover:text-nedina-orange transition-colors" data-pt="Processo" data-en="Process">Processo</a>
-                <a href="#projetos" class="hover:text-nedina-orange transition-colors" data-pt="Nossos Projetos" data-en="Projects">Projetos</a>
+                <a href="#projetos" class="hover:text-nedina-orange transition-colors" data-pt="Projetos" data-en="Projects">Projetos</a>
             </nav>
 
             <!-- Ações: Idioma e Botão -->
@@ -391,26 +391,70 @@
             </div>
         </div>
     </section>
-
-    <!-- CARROSSEL DE CLIENTES -->
+    <!-- CARROSSEL DE CLIENTES (MARQUEE) -->
     <section class="py-16 bg-[#030303] overflow-hidden relative z-10 border-y border-white/5 reveal-up">
         <div class="relative w-full flex overflow-hidden">
+            <!-- Ao usar -50% na animação, dividimos o conteúdo em dois blocos iguais para um loop perfeito e invisível -->
             <div class="flex animate-marquee w-max items-center">
                 <!-- Bloco 1 -->
                 <div class="flex items-center">
-                    <div class="mx-16 text-3xl font-black text-white/10 uppercase tracking-widest" data-pt="Nossos Clientes" data-en="Our Clients">Nossos Clientes</div>
-                    <div class="mx-16 text-3xl font-black text-white/10 uppercase tracking-widest">Empresa XPTO</div>
-                    <div class="mx-16 text-3xl font-black text-white/10 uppercase tracking-widest">Marca Exemplo</div>
-                    <div class="mx-16 text-3xl font-black text-white/10 uppercase tracking-widest">Outro Cliente</div>
-                    <div class="mx-16 text-3xl font-black text-white/10 uppercase tracking-widest">Grupo Sigma</div>
+                    <div class="mx-12 opacity-50 hover:opacity-100 transition-opacity duration-300">
+                        <img src="logo-clientes_01.png" alt="Cliente Sevencard" class="h-16 object-contain filter grayscale hover:grayscale-0">
+                    </div>
+                    <div class="mx-12 opacity-50 hover:opacity-100 transition-opacity duration-300">
+                        <img src="logo-clientes_02.png" alt="Cliente Agencia Rasum" class="h-16 object-contain filter grayscale hover:grayscale-0">
+                    </div>
+                    <div class="mx-12 opacity-50 hover:opacity-100 transition-opacity duration-300">
+                        <img src="logo-clientes_03.png" alt="Cliente Afro Studio" class="h-16 object-contain filter grayscale hover:grayscale-0">
+                    </div>
+                    <div class="mx-12 opacity-50 hover:opacity-100 transition-opacity duration-300">
+                        <img src="logo-clientes_04.png" alt="Cliente Ingrid Silva" class="h-16 object-contain filter grayscale hover:grayscale-0">
+                    </div>
+                    <div class="mx-12 opacity-50 hover:opacity-100 transition-opacity duration-300">
+                        <img src="logo-clientes_05.png" alt="Cliente J.A Soluções" class="h-16 object-contain filter grayscale hover:grayscale-0">
+                    </div>
+                    <div class="mx-12 opacity-50 hover:opacity-100 transition-opacity duration-300">
+                        <img src="logo-clientes_06.png" alt="Cliente Verticesst" class="h-16 object-contain filter grayscale hover:grayscale-0">
+                    </div>
+                    <div class="mx-12 opacity-50 hover:opacity-100 transition-opacity duration-300">
+                        <img src="logo-clientes_08.png" alt="Cliente Go Pack" class="h-16 object-contain filter grayscale hover:grayscale-0">
+                    </div>
+                    <div class="mx-12 opacity-50 hover:opacity-100 transition-opacity duration-300">
+                        <img src="logo-clientes_09.png" alt="Cliente Orbit Studios" class="h-16 object-contain filter grayscale hover:grayscale-0">
+                    </div>
+                    <div class="mx-12 opacity-50 hover:opacity-100 transition-opacity duration-300">
+                        <img src="logo-clientes_10.png" alt="Cliente Laura Petricione" class="h-16 object-contain filter grayscale hover:grayscale-0">
+                    </div>
                 </div>
-                <!-- Bloco 2 -->
+                <!-- Bloco 2 (Cópia exata para o loop contínuo) -->
                 <div class="flex items-center">
-                    <div class="mx-16 text-3xl font-black text-white/10 uppercase tracking-widest" data-pt="Nossos Clientes" data-en="Our Clients">Nossos Clientes</div>
-                    <div class="mx-16 text-3xl font-black text-white/10 uppercase tracking-widest">Empresa XPTO</div>
-                    <div class="mx-16 text-3xl font-black text-white/10 uppercase tracking-widest">Marca Exemplo</div>
-                    <div class="mx-16 text-3xl font-black text-white/10 uppercase tracking-widest">Outro Cliente</div>
-                    <div class="mx-16 text-3xl font-black text-white/10 uppercase tracking-widest">Grupo Sigma</div>
+                    <div class="mx-12 opacity-50 hover:opacity-100 transition-opacity duration-300">
+                        <img src="logo-clientes_01.png" alt="Cliente Sevencard" class="h-16 object-contain filter grayscale hover:grayscale-0">
+                    </div>
+                    <div class="mx-12 opacity-50 hover:opacity-100 transition-opacity duration-300">
+                        <img src="logo-clientes_02.png" alt="Cliente Agencia Rasum" class="h-16 object-contain filter grayscale hover:grayscale-0">
+                    </div>
+                    <div class="mx-12 opacity-50 hover:opacity-100 transition-opacity duration-300">
+                        <img src="logo-clientes_03.png" alt="Cliente Afro Studio" class="h-16 object-contain filter grayscale hover:grayscale-0">
+                    </div>
+                    <div class="mx-12 opacity-50 hover:opacity-100 transition-opacity duration-300">
+                        <img src="logo-clientes_04.png" alt="Cliente Ingrid Silva" class="h-16 object-contain filter grayscale hover:grayscale-0">
+                    </div>
+                    <div class="mx-12 opacity-50 hover:opacity-100 transition-opacity duration-300">
+                        <img src="logo-clientes_05.png" alt="Cliente J.A Soluções" class="h-16 object-contain filter grayscale hover:grayscale-0">
+                    </div>
+                    <div class="mx-12 opacity-50 hover:opacity-100 transition-opacity duration-300">
+                        <img src="logo-clientes_06.png" alt="Cliente Verticesst" class="h-16 object-contain filter grayscale hover:grayscale-0">
+                    </div>
+                    <div class="mx-12 opacity-50 hover:opacity-100 transition-opacity duration-300">
+                        <img src="logo-clientes_08.png" alt="Cliente Go Pack" class="h-16 object-contain filter grayscale hover:grayscale-0">
+                    </div>
+                    <div class="mx-12 opacity-50 hover:opacity-100 transition-opacity duration-300">
+                        <img src="logo-clientes_09.png" alt="Cliente Orbit Studios" class="h-16 object-contain filter grayscale hover:grayscale-0">
+                    </div>
+                    <div class="mx-12 opacity-50 hover:opacity-100 transition-opacity duration-300">
+                        <img src="logo-clientes_10.png" alt="Cliente Laura Petricione" class="h-16 object-contain filter grayscale hover:grayscale-0">
+                    </div>
                 </div>
             </div>
         </div>
@@ -441,7 +485,7 @@
                         <div class="flex items-center gap-4">
                             <div class="w-12 h-12 rounded-full border border-nedina-orange/30 bg-white/5 flex items-center justify-center flex-shrink-0"><i class="ph-fill ph-user text-2xl text-gray-400"></i></div>
                             <div>
-                                <h4 class="font-bold text-white text-sm">Júlia ****</h4>
+                                <h4 class="font-bold text-white text-sm">Júlia S.</h4>
                                 <span class="text-xs text-nedina-orange font-bold uppercase tracking-widest" data-pt="Identidade Visual" data-en="Visual Identity">Identidade Visual</span>
                             </div>
                         </div>
@@ -460,7 +504,7 @@
                         <div class="flex items-center gap-4">
                             <div class="w-12 h-12 rounded-full border border-nedina-orange/30 bg-white/5 flex items-center justify-center flex-shrink-0"><i class="ph-fill ph-user text-2xl text-gray-400"></i></div>
                             <div>
-                                <h4 class="font-bold text-white text-sm">Lucas ****</h4>
+                                <h4 class="font-bold text-white text-sm">Lucas M.</h4>
                                 <span class="text-xs text-nedina-orange font-bold uppercase tracking-widest">Social Media</span>
                             </div>
                         </div>
@@ -479,7 +523,7 @@
                         <div class="flex items-center gap-4">
                             <div class="w-12 h-12 rounded-full border border-nedina-orange/30 bg-white/5 flex items-center justify-center flex-shrink-0"><i class="ph-fill ph-user text-2xl text-gray-400"></i></div>
                             <div>
-                                <h4 class="font-bold text-white text-sm">Elizabeth ****</h4>
+                                <h4 class="font-bold text-white text-sm">Elizabeth C.</h4>
                                 <span class="text-xs text-nedina-orange font-bold uppercase tracking-widest" data-pt="Identidade Visual" data-en="Visual Identity">Identidade Visual</span>
                             </div>
                         </div>
@@ -498,7 +542,7 @@
                         <div class="flex items-center gap-4">
                             <div class="w-12 h-12 rounded-full border border-nedina-orange/30 bg-white/5 flex items-center justify-center flex-shrink-0"><i class="ph-fill ph-user text-2xl text-gray-400"></i></div>
                             <div>
-                                <h4 class="font-bold text-white text-sm">Fernando ****</h4>
+                                <h4 class="font-bold text-white text-sm">Fernando P.</h4>
                                 <span class="text-xs text-nedina-orange font-bold uppercase tracking-widest">Branding</span>
                             </div>
                         </div>
@@ -517,7 +561,7 @@
                         <div class="flex items-center gap-4">
                             <div class="w-12 h-12 rounded-full border border-nedina-orange/30 bg-white/5 flex items-center justify-center flex-shrink-0"><i class="ph-fill ph-user text-2xl text-gray-400"></i></div>
                             <div>
-                                <h4 class="font-bold text-white text-sm">Renata ****</h4>
+                                <h4 class="font-bold text-white text-sm">Renata V.</h4>
                                 <span class="text-xs text-nedina-orange font-bold uppercase tracking-widest" data-pt="Identidade & Social" data-en="Identity & Social">Identidade & Social</span>
                             </div>
                         </div>
@@ -537,7 +581,7 @@
                         <div class="flex items-center gap-4">
                             <div class="w-12 h-12 rounded-full border border-nedina-orange/30 bg-white/5 flex items-center justify-center flex-shrink-0"><i class="ph-fill ph-user text-2xl text-gray-400"></i></div>
                             <div>
-                                <h4 class="font-bold text-white text-sm">Diego ****</h4>
+                                <h4 class="font-bold text-white text-sm">Diego T.</h4>
                                 <span class="text-xs text-nedina-orange font-bold uppercase tracking-widest">Social Media</span>
                             </div>
                         </div>
@@ -554,7 +598,7 @@
                         <div class="flex items-center gap-4">
                             <div class="w-12 h-12 rounded-full border border-nedina-orange/30 bg-white/5 flex items-center justify-center flex-shrink-0"><i class="ph-fill ph-user text-2xl text-gray-400"></i></div>
                             <div>
-                                <h4 class="font-bold text-white text-sm">Amanda ****</h4>
+                                <h4 class="font-bold text-white text-sm">Amanda L.</h4>
                                 <span class="text-xs text-nedina-orange font-bold uppercase tracking-widest" data-pt="Identidade Visual" data-en="Visual Identity">Identidade Visual</span>
                             </div>
                         </div>
@@ -571,7 +615,7 @@
                         <div class="flex items-center gap-4">
                             <div class="w-12 h-12 rounded-full border border-nedina-orange/30 bg-white/5 flex items-center justify-center flex-shrink-0"><i class="ph-fill ph-user text-2xl text-gray-400"></i></div>
                             <div>
-                                <h4 class="font-bold text-white text-sm">Thiago ****</h4>
+                                <h4 class="font-bold text-white text-sm">Thiago R.</h4>
                                 <span class="text-xs text-nedina-orange font-bold uppercase tracking-widest">Social Media</span>
                             </div>
                         </div>
@@ -588,7 +632,7 @@
                         <div class="flex items-center gap-4">
                             <div class="w-12 h-12 rounded-full border border-nedina-orange/30 bg-white/5 flex items-center justify-center flex-shrink-0"><i class="ph-fill ph-user text-2xl text-gray-400"></i></div>
                             <div>
-                                <h4 class="font-bold text-white text-sm">Beatriz ****</h4>
+                                <h4 class="font-bold text-white text-sm">Beatriz F.</h4>
                                 <span class="text-xs text-nedina-orange font-bold uppercase tracking-widest" data-pt="Identidade Visual" data-en="Visual Identity">Identidade Visual</span>
                             </div>
                         </div>
@@ -605,7 +649,7 @@
                         <div class="flex items-center gap-4">
                             <div class="w-12 h-12 rounded-full border border-nedina-orange/30 bg-white/5 flex items-center justify-center flex-shrink-0"><i class="ph-fill ph-user text-2xl text-gray-400"></i></div>
                             <div>
-                                <h4 class="font-bold text-white text-sm">Felipe ****</h4>
+                                <h4 class="font-bold text-white text-sm">Felipe A.</h4>
                                 <span class="text-xs text-nedina-orange font-bold uppercase tracking-widest">Branding</span>
                             </div>
                         </div>
